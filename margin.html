@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Margin</title>
+		<style>
+			* {
+				box-sizing: border-box;
+				margin: 0px;
+			}
+			/* 
+            ctrl + /
+            .red {
+				background-color: red;
+			} */
+			.red {
+				background-color: red;
+				font-size: 64px;
+			}
+			.blue {
+				background-color: blue;
+			}
+			#mydiv {
+				color: white;
+				background-color: blue;
+			}
+			#special {
+				color: white;
+			}
+			img {
+				width: 100%;
+				height: 200px;
+				object-fit: cover;
+				/* Pasirenkant visas krastines */
+				/* padding-top: 15px;
+				padding-bottom: 15px;
+				padding-left: 15px;
+				padding-right: 15px; */
+
+				/* Nurodant viena eilute visoms krastinems */
+
+				/* padding: 15px; */
+
+				/* Vienoje eiluteje nurodant visoms krastinems pagal laikrodzio rodykle */
+				/* padding: 15px 15px 15px 15px; */
+
+				/* Pirma reiksme i virsu ir i apacia, antra reiksme i kaire ir i desine */
+				/* padding: 15px 15px; */
+				/* Pirma reiksme i virsu atitraukimas antra reiksme i kaire ir i desine
+                ir trecia reiksme is apacios 
+                */
+				padding: 15px 15px 15px;
+			}
+		</style>
+	</head>
+	<body>
+		<div id="mydiv" class="red">CodeAcademy</div>
+		<div class="blue">CodeAcademy</div>
+		<div class="blue" id="special">CodeAcademy</div>
+		<div class="blue">CodeAcademy</div>
+		<div class="blue">CodeAcademy</div>
+		<div class="blue">CodeAcademy</div>
+		<img src="https://picsum.photos/900/900" alt="No Image" />
+	</body>
+</html>

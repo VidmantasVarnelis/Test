@@ -1,0 +1,169 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;800&display=swap');
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Nunito', sans-serif;
+}
+body {
+	background-color: #f8f8f8;
+}
+header nav {
+	background-color: white;
+	padding: 15px 50px;
+}
+header nav a {
+	text-decoration: none;
+	color: #333333;
+	font-weight: bold;
+}
+.intro__text {
+	text-align: center;
+	padding: 100px 0;
+}
+.intro__text h3 {
+	font-size: 32px;
+	font-weight: normal;
+	color: #333333;
+}
+.intro__text h1 {
+	font-size: 48px;
+	line-height: 0.8;
+	font-weight: 800;
+	color: #333333;
+}
+.persons {
+	text-align: center;
+}
+.persons .person {
+	width: 350px;
+	display: inline-block;
+	margin-bottom: 25px;
+	padding: 25px 0 50px;
+}
+.persons .person .circle {
+	height: 125px;
+	width: 125px;
+	background-color: gray;
+	border-radius: 50%;
+	margin: 0 auto 35px;
+}
+.persons .person h1 {
+	font-size: 32px;
+	font-weight: 600;
+}
+.persons .person h4 {
+	font-size: 16px;
+	font-weight: 600;
+	color: #686868;
+	line-height: 0.5;
+	margin-bottom: 15px;
+}
+.persons .person p {
+	text-align: justify;
+	line-height: 1.5;
+	padding-left: 15px;
+}
+hr {
+	border-top: 1px solid #cfcfcf;
+	margin: 75px 50px;
+}
+.table__section table {
+	width: 100%;
+	max-width: 1350px;
+	border-spacing: 0 15px;
+	padding: 0 50px;
+	margin: 0 auto 100px;
+}
+td,
+th {
+	padding: 20px;
+	text-align: center;
+}
+th {
+	color: white;
+	background-color: #6885ed;
+}
+td {
+	background-color: white;
+}
+th:first-child,
+td:first-child {
+	border-top-left-radius: 8px;
+	border-bottom-left-radius: 8px;
+	text-align: left;
+}
+th:last-child,
+td:last-child {
+	border-top-right-radius: 8px;
+	border-bottom-right-radius: 8px;
+	text-align: right;
+}
+
+/* Pasirenkam vidurini vaika su kitu selektroniumi */
+/* td:nth-last-child(2) {
+	background-color: red;
+} */
+/* td:nth-child(2) {
+	background-color: red;
+} */
+/* Galime naudoti even ir odd */
+/* Lygis */
+/* td:nth-child(even) {
+	background-color: red;
+} */
+/* Nelyginis */
+/* td:nth-child(odd) {
+	background-color: red;
+} */
+
+/* Contact Section */
+.contact {
+	background-color: #5e5d5d;
+	padding-top: 75px;
+	padding-bottom: 125px;
+	border-radius: 50px 50px 0 0;
+}
+.contact h1 {
+	color: white;
+	font-size: 48px;
+	text-align: center;
+	font-weight: 600;
+	letter-spacing: 5.5px;
+	margin-bottom: 75px;
+}
+label {
+	color: white;
+}
+.contact input,
+.contact textarea {
+	display: block;
+	width: 100%;
+	max-width: 650px;
+	border-radius: 8px;
+	border: none;
+	margin: 5px 0;
+}
+.contact input {
+	padding: 7.5px 5px;
+}
+.contact button {
+	background-color: #6885ed;
+	color: white;
+	padding: 7.5px 75px;
+	border: none;
+	border-radius: 50px;
+	font-size: 16px;
+	cursor: pointer;
+	display: block;
+	margin: 30px auto;
+}
+.contact form {
+	max-width: 650px;
+	margin: 0 auto;
+	padding: 0 20px;
+}
+footer {
+	height: 50px;
+	background-color: #6885ed;
+}
